@@ -941,7 +941,18 @@ body.nav-active { overflow: hidden; }
 
 .service .card-title { margin-block-end: 12px; }
 
+.menu-section {
+  display: flex;
+  gap: 40px;
+}
 
+.menu-section .column {
+  width: 50%;
+}
+
+.menu-section .column img {
+  width: 100%;
+}
 
 
 
@@ -1128,7 +1139,7 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .testi {
-  padding-block-end: 340px;
+  padding-block-end: 60px;
   position: static;
 }
 
@@ -1227,7 +1238,7 @@ textarea.input-field {
 
 .features .section-title { margin-block-end: 40px; }
 
-.feature-card { padding: 30px 20px 40px; }
+.feature-card { padding: 30px 20px 40px; height: 100%;}
 
 .feature-item:nth-child(2n+1) .feature-card { background-color: var(--eerie-black-3); }
 
@@ -2141,4 +2152,13 @@ textarea.input-field {
     left: 0;
   }
 
+}
+
+.inline-number {
+  display: inline;
+  color: var(--gold-crayola);
+}
+
+.review {
+  font-size: 24px !important;
 }
